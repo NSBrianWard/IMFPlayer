@@ -1,3 +1,5 @@
+Note: 2013 Mac OS X port by Brian Ward - https://github.com/primedirective
+
 ----------------------------
 IMF Player by Gerstrong v2.0
 ----------------------------
