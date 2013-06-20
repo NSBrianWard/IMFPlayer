@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		745057FB16D71EF600205243 /* IMFPlayer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 745057FA16D71EF600205243 /* IMFPlayer.1 */; };
+		7461C1EC17728E7E00E5E58D /* dbopl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7461C1E617728E7E00E5E58D /* dbopl.cpp */; };
+		7461C1ED17728E7E00E5E58D /* id_sd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7461C1E817728E7E00E5E58D /* id_sd.cpp */; };
+		7461C1EE17728E7E00E5E58D /* wl_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7461C1EB17728E7E00E5E58D /* wl_main.cpp */; };
+		749946F416D7211E00848683 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749946F316D7211E00848683 /* SDL.framework */; };
+		749946F716D7229000848683 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 749946F616D7217700848683 /* SDLMain.m */; };
+		749946F916D722DA00848683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749946F816D722DA00848683 /* Foundation.framework */; };
+		749946FB16D722E100848683 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749946FA16D722E100848683 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		745057F316D71EF600205243 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				745057FB16D71EF600205243 /* IMFPlayer.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		745057F516D71EF600205243 /* IMFPlayer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IMFPlayer; sourceTree = BUILT_PRODUCTS_DIR; };
+		745057FA16D71EF600205243 /* IMFPlayer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IMFPlayer.1; sourceTree = "<group>"; };
+		7461C1E517728E7E00E5E58D /* Changes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changes.txt; sourceTree = "<group>"; };
+		7461C1E617728E7E00E5E58D /* dbopl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dbopl.cpp; sourceTree = "<group>"; };
+		7461C1E717728E7E00E5E58D /* dbopl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbopl.h; sourceTree = "<group>"; };
+		7461C1E817728E7E00E5E58D /* id_sd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = id_sd.cpp; sourceTree = "<group>"; };
+		7461C1E917728E7E00E5E58D /* id_sd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = id_sd.h; sourceTree = "<group>"; };
+		7461C1EA17728E7E00E5E58D /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
+		7461C1EB17728E7E00E5E58D /* wl_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wl_main.cpp; sourceTree = "<group>"; };
+		749946F316D7211E00848683 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL.framework; sourceTree = "<group>"; };
+		749946F516D7217700848683 /* SDLMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		749946F616D7217700848683 /* SDLMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		749946F816D722DA00848683 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		749946FA16D722E100848683 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		745057F216D71EF600205243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749946FB16D722E100848683 /* Cocoa.framework in Frameworks */,
+				749946F916D722DA00848683 /* Foundation.framework in Frameworks */,
+				749946F416D7211E00848683 /* SDL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		745057EC16D71EF600205243 = {
+			isa = PBXGroup;
+			children = (
+				749946FA16D722E100848683 /* Cocoa.framework */,
+				749946F816D722DA00848683 /* Foundation.framework */,
+				749946F516D7217700848683 /* SDLMain.h */,
+				749946F616D7217700848683 /* SDLMain.m */,
+				745057F716D71EF600205243 /* IMFPlayer */,
+				745057F616D71EF600205243 /* Products */,
+				749946F316D7211E00848683 /* SDL.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		745057F616D71EF600205243 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				745057F516D71EF600205243 /* IMFPlayer */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		745057F716D71EF600205243 /* IMFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7461C1E517728E7E00E5E58D /* Changes.txt */,
+				7461C1E617728E7E00E5E58D /* dbopl.cpp */,
+				7461C1E717728E7E00E5E58D /* dbopl.h */,
+				7461C1E817728E7E00E5E58D /* id_sd.cpp */,
+				7461C1E917728E7E00E5E58D /* id_sd.h */,
+				7461C1EA17728E7E00E5E58D /* Readme.txt */,
+				7461C1EB17728E7E00E5E58D /* wl_main.cpp */,
+				745057FA16D71EF600205243 /* IMFPlayer.1 */,
+			);
+			path = IMFPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		745057F416D71EF600205243 /* IMFPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745057FE16D71EF600205243 /* Build configuration list for PBXNativeTarget "IMFPlayer" */;
+			buildPhases = (
+				745057F116D71EF600205243 /* Sources */,
+				745057F216D71EF600205243 /* Frameworks */,
+				745057F316D71EF600205243 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMFPlayer;
+			productName = IMFPlayer;
+			productReference = 745057F516D71EF600205243 /* IMFPlayer */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		745057ED16D71EF600205243 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Brian Ward";
+			};
+			buildConfigurationList = 745057F016D71EF600205243 /* Build configuration list for PBXProject "IMFPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 745057EC16D71EF600205243;
+			productRefGroup = 745057F616D71EF600205243 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				745057F416D71EF600205243 /* IMFPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		745057F116D71EF600205243 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749946F716D7229000848683 /* SDLMain.m in Sources */,
+				7461C1EC17728E7E00E5E58D /* dbopl.cpp in Sources */,
+				7461C1ED17728E7E00E5E58D /* id_sd.cpp in Sources */,
+				7461C1EE17728E7E00E5E58D /* wl_main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		745057FC16D71EF600205243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		745057FD16D71EF600205243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+		745057FF16D71EF600205243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7450580016D71EF600205243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		745057F016D71EF600205243 /* Build configuration list for PBXProject "IMFPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745057FC16D71EF600205243 /* Debug */,
+				745057FD16D71EF600205243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745057FE16D71EF600205243 /* Build configuration list for PBXNativeTarget "IMFPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745057FF16D71EF600205243 /* Debug */,
+				7450580016D71EF600205243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 745057ED16D71EF600205243 /* Project object */;
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>917CD860-EACB-4A0B-B44C-ABA5D8484EF3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IMFPlayer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D27F901C-8E55-4E09-A9C8-7920F7CC2899</key>
+		<string>https://github.com/primedirective/IMF-Player.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IMFPlayer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D27F901C-8E55-4E09-A9C8-7920F7CC2899</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/primedirective/IMF-Player.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D27F901C-8E55-4E09-A9C8-7920F7CC2899</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D27F901C-8E55-4E09-A9C8-7920F7CC2899</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IMFPlayer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
