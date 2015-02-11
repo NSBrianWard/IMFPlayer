@@ -16,6 +16,12 @@
 #include "id_sd.h"
 #include <SDL/SDL.h>
 #include <iostream>
+#include <sys/stat.h>
+
+bool fileExists(const char* file) {
+    struct stat buf;
+    return (stat(file, &buf) == 0);
+}
 
 /*
 ==========================
@@ -66,20 +72,29 @@ int main (int argc, char *argv[])
     else
         SD_Startup (atoi(argv[2]), atoi(argv[3]), atoi(argv[4]));
 
+    //SD_StartMusic(argv[1]);
 
-    SD_StartMusic(argv[1]);
-
-    printf("Playing the file %s\n", argv[1]);
-
+    if (fileExists(argv[1]))
+    {
+        // printf("TRUE!\n");
+        SD_StartMusic(argv[1]);
+        
+        printf("Playing the file %s\n", argv[1]);
+        
 #ifdef WIN32
-    system("pause");
+        system("pause");
 #else
-    printf("To quit the player just press any key...\n");
-    getchar();
+        printf("To quit the player just press any key...\n");
+        getchar();
 #endif
-
-    // The shutdown routine
-    SD_Shutdown ();
-
+        
+        // The shutdown routine
+        SD_Shutdown ();
+    }
+    else
+    {
+        printf("File %s does not exist\n", argv[1]);
+    }
+    
     return 0;
 }
