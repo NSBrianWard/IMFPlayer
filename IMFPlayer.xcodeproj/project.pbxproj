@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		744DD3F820BD276D00EBDD57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744DD3F720BD276D00EBDD57 /* Foundation.framework */; };
+		744DD3FA20BD279200EBDD57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744DD3F920BD279200EBDD57 /* Cocoa.framework */; };
+		744DD3FB20BD27AD00EBDD57 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749946F316D7211E00848683 /* SDL.framework */; };
+		744DD3FE20BD28E100EBDD57 /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 749946F316D7211E00848683 /* SDL.framework */; };
 		745057FB16D71EF600205243 /* IMFPlayer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 745057FA16D71EF600205243 /* IMFPlayer.1 */; };
 		7461C1EC17728E7E00E5E58D /* dbopl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7461C1E617728E7E00E5E58D /* dbopl.cpp */; };
 		7461C1ED17728E7E00E5E58D /* id_sd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7461C1E817728E7E00E5E58D /* id_sd.cpp */; };
 		7461C1EE17728E7E00E5E58D /* wl_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7461C1EB17728E7E00E5E58D /* wl_main.cpp */; };
-		749946F416D7211E00848683 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749946F316D7211E00848683 /* SDL.framework */; };
 		749946F716D7229000848683 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 749946F616D7217700848683 /* SDLMain.m */; };
-		749946F916D722DA00848683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749946F816D722DA00848683 /* Foundation.framework */; };
-		749946FB16D722E100848683 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749946FA16D722E100848683 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		744DD3FD20BD28D400EBDD57 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				744DD3FE20BD28E100EBDD57 /* SDL.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		745057F316D71EF600205243 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -31,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		744DD3F720BD276D00EBDD57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = ../../../../../System/Library/Frameworks/Foundation.framework; sourceTree = "<group>"; };
+		744DD3F920BD279200EBDD57 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = ../../../../../System/Library/Frameworks/Cocoa.framework; sourceTree = "<group>"; };
 		745057F516D71EF600205243 /* IMFPlayer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IMFPlayer; sourceTree = BUILT_PRODUCTS_DIR; };
 		745057FA16D71EF600205243 /* IMFPlayer.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = IMFPlayer.1; sourceTree = "<group>"; };
 		7461C1E517728E7E00E5E58D /* Changes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changes.txt; sourceTree = "<group>"; };
@@ -40,11 +53,9 @@
 		7461C1E917728E7E00E5E58D /* id_sd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = id_sd.h; sourceTree = "<group>"; };
 		7461C1EA17728E7E00E5E58D /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		7461C1EB17728E7E00E5E58D /* wl_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wl_main.cpp; sourceTree = "<group>"; };
-		749946F316D7211E00848683 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL.framework; sourceTree = "<group>"; };
+		749946F316D7211E00848683 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Users/brianward/dev/IMFPlayer/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
 		749946F516D7217700848683 /* SDLMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
 		749946F616D7217700848683 /* SDLMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
-		749946F816D722DA00848683 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		749946FA16D722E100848683 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,25 +63,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				749946FB16D722E100848683 /* Cocoa.framework in Frameworks */,
-				749946F916D722DA00848683 /* Foundation.framework in Frameworks */,
-				749946F416D7211E00848683 /* SDL.framework in Frameworks */,
+				744DD3FB20BD27AD00EBDD57 /* SDL.framework in Frameworks */,
+				744DD3FA20BD279200EBDD57 /* Cocoa.framework in Frameworks */,
+				744DD3F820BD276D00EBDD57 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		744DD3F020BD255300EBDD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				744DD3F920BD279200EBDD57 /* Cocoa.framework */,
+				744DD3F720BD276D00EBDD57 /* Foundation.framework */,
+				749946F316D7211E00848683 /* SDL.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		744DD3FF20BD316B00EBDD57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7461C1E517728E7E00E5E58D /* Changes.txt */,
+				7461C1EA17728E7E00E5E58D /* Readme.txt */,
+				745057FA16D71EF600205243 /* IMFPlayer.1 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		745057EC16D71EF600205243 = {
 			isa = PBXGroup;
 			children = (
-				749946FA16D722E100848683 /* Cocoa.framework */,
-				749946F816D722DA00848683 /* Foundation.framework */,
-				749946F516D7217700848683 /* SDLMain.h */,
-				749946F616D7217700848683 /* SDLMain.m */,
+				744DD3FF20BD316B00EBDD57 /* Resources */,
+				744DD3F020BD255300EBDD57 /* Frameworks */,
 				745057F716D71EF600205243 /* IMFPlayer */,
 				745057F616D71EF600205243 /* Products */,
-				749946F316D7211E00848683 /* SDL.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,14 +113,13 @@
 		745057F716D71EF600205243 /* IMFPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				7461C1E517728E7E00E5E58D /* Changes.txt */,
+				749946F516D7217700848683 /* SDLMain.h */,
+				749946F616D7217700848683 /* SDLMain.m */,
 				7461C1E617728E7E00E5E58D /* dbopl.cpp */,
 				7461C1E717728E7E00E5E58D /* dbopl.h */,
 				7461C1E817728E7E00E5E58D /* id_sd.cpp */,
 				7461C1E917728E7E00E5E58D /* id_sd.h */,
-				7461C1EA17728E7E00E5E58D /* Readme.txt */,
 				7461C1EB17728E7E00E5E58D /* wl_main.cpp */,
-				745057FA16D71EF600205243 /* IMFPlayer.1 */,
 			);
 			path = IMFPlayer;
 			sourceTree = "<group>";
@@ -107,6 +134,7 @@
 				745057F116D71EF600205243 /* Sources */,
 				745057F216D71EF600205243 /* Frameworks */,
 				745057F316D71EF600205243 /* CopyFiles */,
+				744DD3FD20BD28D400EBDD57 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -220,7 +248,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -232,7 +261,8 @@
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
