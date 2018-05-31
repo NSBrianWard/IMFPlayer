@@ -1,7 +1,7 @@
-Note: 2013 Mac OS X port by Brian Ward - https://github.com/primedirective
 
 ----------------------------
 IMF Player by Gerstrong v2.0
+w/ Mac changes by Brian Ward
 ----------------------------
 
 This IMF Player was built for Commander Genius to support that format.
