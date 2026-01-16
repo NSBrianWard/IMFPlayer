@@ -9,6 +9,8 @@ The result is accurate, stable playback of IMF music on modern macOS systems.
 Credit to the original source materials for this project:
 http://sourceforge.net/projects/clonekeenplus/files/Tools/IMFPlayer/
 
+The SDL2 version for macOS can still be found on the [archive/sdl2](https://github.com/NSBrianWard/IMFPlayer/tree/archive/sdl2) branch.
+
 ---
 
 ## Features
