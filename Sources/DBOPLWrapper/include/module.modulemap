@@ -1,0 +1,4 @@
+module DBOPLWrapper [system] {
+  header "dbopl_wrapper.h"
+  export *
+}
