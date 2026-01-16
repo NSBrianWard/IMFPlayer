@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Xcode
+*.xcuserstate
+*.xcuserdata/
+IMFPlayer.xcodeproj/project.xcworkspace/xcuserdata/
+xcuserdata/
+DerivedData/
+
+# Xcode source control
+*.xccheckout
+*.xcscmblueprint
+
+# Build products
+build/
+*.o
+*.a
+*.dylib
+*.framework
+*.app
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+
+# SDL2
+SDL2.framework/
