@@ -73,16 +73,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		744DD3F020BD255300EBDD57 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				74077FBF2F19E27B00B2029D /* libSDL2-2.0.0.dylib */,
-				744DD3F920BD279200EBDD57 /* Cocoa.framework */,
-				744DD3F720BD276D00EBDD57 /* Foundation.framework */,
-			);
-			path = Frameworks;
-			sourceTree = "<group>";
-		};
 		744DD3FF20BD316B00EBDD57 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +86,8 @@
 		745057EC16D71EF600205243 = {
 			isa = PBXGroup;
 			children = (
+				74608A782F19E8D3004EFBC3 /* Frameworks */,
 				744DD3FF20BD316B00EBDD57 /* Resources */,
-				744DD3F020BD255300EBDD57 /* Frameworks */,
 				745057F716D71EF600205243 /* IMFPlayer */,
 				745057F616D71EF600205243 /* Products */,
 			);
@@ -123,6 +113,16 @@
 				7461C1EB17728E7E00E5E58D /* wl_main.cpp */,
 			);
 			path = IMFPlayer;
+			sourceTree = "<group>";
+		};
+		74608A782F19E8D3004EFBC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74077FBF2F19E27B00B2029D /* libSDL2-2.0.0.dylib */,
+				744DD3F920BD279200EBDD57 /* Cocoa.framework */,
+				744DD3F720BD276D00EBDD57 /* Foundation.framework */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +248,7 @@
 		745057FF16D71EF600205243 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = arm64;
+				ARCHS = "$(ARCHS_STANDARD)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -267,7 +267,7 @@
 		7450580016D71EF600205243 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = arm64;
+				ARCHS = "$(ARCHS_STANDARD)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
