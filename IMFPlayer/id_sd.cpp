@@ -1,7 +1,7 @@
 #include "id_sd.h"
 //#include "fmopl.h"
 #include "dbopl.h"
-#include <SDL/SDL.h>
+#include <SDL2/SDL.h>
 #include <string>
 
 typedef uint8_t byte;
@@ -227,3 +227,5 @@ SD_Shutdown(void)
 	if(sqHack)
 		free(sqHack);
 }
+
+

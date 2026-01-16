@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74077FC02F19E27B00B2029D /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 74077FBF2F19E27B00B2029D /* libSDL2-2.0.0.dylib */; };
+		74077FC12F19E27B00B2029D /* libSDL2-2.0.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 74077FBF2F19E27B00B2029D /* libSDL2-2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		744DD3F820BD276D00EBDD57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744DD3F720BD276D00EBDD57 /* Foundation.framework */; };
 		744DD3FA20BD279200EBDD57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 744DD3F920BD279200EBDD57 /* Cocoa.framework */; };
-		744DD3FB20BD27AD00EBDD57 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749946F316D7211E00848683 /* SDL.framework */; };
-		744DD3FE20BD28E100EBDD57 /* SDL.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 749946F316D7211E00848683 /* SDL.framework */; };
 		745057FB16D71EF600205243 /* IMFPlayer.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 745057FA16D71EF600205243 /* IMFPlayer.1 */; };
 		7461C1EC17728E7E00E5E58D /* dbopl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7461C1E617728E7E00E5E58D /* dbopl.cpp */; };
 		7461C1ED17728E7E00E5E58D /* id_sd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7461C1E817728E7E00E5E58D /* id_sd.cpp */; };
@@ -19,14 +19,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		744DD3FD20BD28D400EBDD57 /* CopyFiles */ = {
+		74077FC22F19E27B00B2029D /* Embed Libraries */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 16;
+			dstSubfolderSpec = 10;
 			files = (
-				744DD3FE20BD28E100EBDD57 /* SDL.framework in CopyFiles */,
+				74077FC12F19E27B00B2029D /* libSDL2-2.0.0.dylib in Embed Libraries */,
 			);
+			name = "Embed Libraries";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		745057F316D71EF600205243 /* CopyFiles */ = {
@@ -42,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		74077FBF2F19E27B00B2029D /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../../opt/homebrew/Cellar/sdl2/2.32.10/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
 		744DD3F720BD276D00EBDD57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = ../../../../../System/Library/Frameworks/Foundation.framework; sourceTree = "<group>"; };
 		744DD3F920BD279200EBDD57 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = ../../../../../System/Library/Frameworks/Cocoa.framework; sourceTree = "<group>"; };
 		745057F516D71EF600205243 /* IMFPlayer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IMFPlayer; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +55,6 @@
 		7461C1E917728E7E00E5E58D /* id_sd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = id_sd.h; sourceTree = "<group>"; };
 		7461C1EA17728E7E00E5E58D /* Readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 		7461C1EB17728E7E00E5E58D /* wl_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wl_main.cpp; sourceTree = "<group>"; };
-		749946F316D7211E00848683 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Users/brianward/dev/IMFPlayer/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
 		749946F516D7217700848683 /* SDLMain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
 		749946F616D7217700848683 /* SDLMain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				744DD3FB20BD27AD00EBDD57 /* SDL.framework in Frameworks */,
+				74077FC02F19E27B00B2029D /* libSDL2-2.0.0.dylib in Frameworks */,
 				744DD3FA20BD279200EBDD57 /* Cocoa.framework in Frameworks */,
 				744DD3F820BD276D00EBDD57 /* Foundation.framework in Frameworks */,
 			);
@@ -75,9 +76,9 @@
 		744DD3F020BD255300EBDD57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74077FBF2F19E27B00B2029D /* libSDL2-2.0.0.dylib */,
 				744DD3F920BD279200EBDD57 /* Cocoa.framework */,
 				744DD3F720BD276D00EBDD57 /* Foundation.framework */,
-				749946F316D7211E00848683 /* SDL.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -134,7 +135,7 @@
 				745057F116D71EF600205243 /* Sources */,
 				745057F216D71EF600205243 /* Frameworks */,
 				745057F316D71EF600205243 /* CopyFiles */,
-				744DD3FD20BD28D400EBDD57 /* CopyFiles */,
+				74077FC22F19E27B00B2029D /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -159,6 +160,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 745057EC16D71EF600205243;
@@ -214,7 +216,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx26.2;
 			};
 			name = Debug;
 		};
@@ -239,19 +241,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx10.9;
+				SDKROOT = macosx26.2;
 			};
 			name = Release;
 		};
 		745057FF16D71EF600205243 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				HEADER_SEARCH_PATHS = /opt/homebrew/opt/sdl2/include/;
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/opt/sdl2/lib,
+					/opt/homebrew/Cellar/sdl2/2.32.10/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -259,12 +267,18 @@
 		7450580016D71EF600205243 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				HEADER_SEARCH_PATHS = /opt/homebrew/opt/sdl2/include/;
+				LIBRARY_SEARCH_PATHS = (
+					/opt/homebrew/opt/sdl2/lib,
+					/opt/homebrew/Cellar/sdl2/2.32.10/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

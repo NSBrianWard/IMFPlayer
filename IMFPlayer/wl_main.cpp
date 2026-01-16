@@ -14,7 +14,7 @@
 #endif
 
 #include "id_sd.h"
-#include <SDL/SDL.h>
+#include <SDL2/SDL.h>
 #include <iostream>
 #include <sys/stat.h>
 
@@ -31,7 +31,7 @@ bool fileExists(const char* file) {
 ==========================
 */
 
-int main (int argc, char *argv[])
+extern "C" int SDL_main(int argc, char *argv[])
 {
 	// Parameters messages!
 	if((argc != 2) && (argc != 3) && (argc != 5))
